@@ -1,0 +1,16 @@
+{
+  "name": "m01-h04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "PENGAYAAN_M01H01_sd_M01H04_NOMOR_1.js",
+  "scripts": {
+    "test": "nodemon coba.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  }
+}
