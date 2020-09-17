@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tambah Pegawai</title>
+</head>
+<body>
+    <form action="/pegawai/edit/<%= data._id %>" method="POST">
+        <div>
+            <div>
+                <label for="label">Nama</label>
+                <input type="text" name="nama" placeholder="Nama" value="<%= data.nama %>" required>
+            </div>
+            <div>
+                <label for="label">Usia</label>
+                <input type="number" name="usia" placeholder="Usia" value="<%= data.usia %>" required>
+            </div>
+            <div>
+                <label for="label">Keahlian</label>
+                <input type="text" name="keahlian" placeholder="Keahlian" value="<%= data.keahlian %>" required>
+            </div>
+            <div>
+                <label for="label">Jabatan</label>
+                <input type="text" name="jabatan" placeholder="Jabatan" value="<%= data.jabatan %>" required>
+            </div>
+        </div>
+        <button type="submit">Save</button>
+    </form>
+</body>
